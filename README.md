@@ -3,4 +3,4 @@
 
 Estou apredendo front-end e agr github
 
-<a href="https://italomikel.github.io/HTML-CSS/Exercicios/Desafio_010/android.html"> Exercicio_ 10 </a>
+<a href="https://italomikel.github.io/HTML-CSS/Exercicios/Ex001/index.html"> Exercicio_ 10 </a>
