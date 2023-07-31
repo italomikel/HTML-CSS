@@ -15,14 +15,80 @@ header {
 
 header h1 {
     font-weight: bolder;
+    font-size: 100px;
+}
+
+header p {
+    font-size: 20px;
 }
 
 header a {
     text-decoration: none;
     font-weight: bolder;
     color: white;
+    font-size:20px;
 }
 
 header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 40px;
+    line-height: 90px;
+}
+
+#defalt {
+    background-color: rgb(218, 217, 217);
+    padding-top:30px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    background-attachment: fixed;
+
+ }   
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    background-attachment: fixed;
+}
+
+.fundo {
+    background-color: rgba(0, 0, 0, 0.662);
+    color: white;
+    padding: 10px;
+    margin: -50px -50px -50px -70px;
+    width: 450px;
+    height: auto;
+    
+}
+
+footer {
+    background-color: black;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration:  none;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
