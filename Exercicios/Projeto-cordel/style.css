@@ -60,7 +60,12 @@ div {
     font-size: 40px;
 }
 
-#defalt {
+#defalt > p {
+    padding-bottom: 2em;
+}
+
+.img {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
 }
 
 #img1{
@@ -92,7 +97,7 @@ div {
 footer {
     background-color: black;
     padding: 13px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: white;
 }
@@ -101,7 +106,6 @@ footer a {
     text-decoration:  none;
     font-weight: bolder;
     color: white;
-    font-size: 20px;
 }
 
 footer a:hover {
