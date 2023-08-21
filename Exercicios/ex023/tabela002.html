@@ -12,14 +12,30 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(46, 44, 44);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(46, 44, 44);
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
         .num {
             text-align: right;
@@ -38,10 +54,11 @@
              TD, TR, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -96,11 +113,18 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">84 352 783</td>
             </tr>
         </tfoot>
 
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam impedit dicta saepe, cumque repellat omnis animi veritatis magnam rerum delectus, id soluta aliquid? Blanditiis perspiciatis ipsum officiis accusantium pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut enim non iste est dolore dicta, saepe sapiente sequi totam sunt aliquam corrupti distinctio quaerat ipsa, exercitationem modi molestias inventore possimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus corporis pariatur delectus quos eius harum placeat consequatur reprehenderit nobis nesciunt expedita, iste optio a rerum doloribus voluptates perspiciatis earum veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas est vero labore perspiciatis? Suscipit dicta maiores neque nesciunt quae nam mollitia ipsum, labore consequatur consectetur pariatur quam illo reprehenderit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam impedit dicta saepe, cumque repellat omnis animi veritatis magnam rerum delectus, id soluta aliquid? Blanditiis perspiciatis ipsum officiis accusantium pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut enim non iste est dolore dicta, saepe sapiente sequi totam sunt aliquam corrupti distinctio quaerat ipsa, exercitationem modi molestias inventore possimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus corporis pariatur delectus quos eius harum placeat consequatur reprehenderit nobis nesciunt expedita, iste optio a rerum doloribus voluptates perspiciatis earum veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas est vero labore perspiciatis? Suscipit dicta maiores neque nesciunt quae nam mollitia ipsum, labore consequatur consectetur pariatur quam illo reprehenderit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam impedit dicta saepe, cumque repellat omnis animi veritatis magnam rerum delectus, id soluta aliquid? Blanditiis perspiciatis ipsum officiis accusantium pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut enim non iste est dolore dicta, saepe sapiente sequi totam sunt aliquam corrupti distinctio quaerat ipsa, exercitationem modi molestias inventore possimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus corporis pariatur delectus quos eius harum placeat consequatur reprehenderit nobis nesciunt expedita, iste optio a rerum doloribus voluptates perspiciatis earum veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas est vero labore perspiciatis? Suscipit dicta maiores neque nesciunt quae nam mollitia ipsum, labore consequatur consectetur pariatur quam illo reprehenderit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam impedit dicta saepe, cumque repellat omnis animi veritatis magnam rerum delectus, id soluta aliquid? Blanditiis perspiciatis ipsum officiis accusantium pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut enim non iste est dolore dicta, saepe sapiente sequi totam sunt aliquam corrupti distinctio quaerat ipsa, exercitationem modi molestias inventore possimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus corporis pariatur delectus quos eius harum placeat consequatur reprehenderit nobis nesciunt expedita, iste optio a rerum doloribus voluptates perspiciatis earum veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas est vero labore perspiciatis? Suscipit dicta maiores neque nesciunt quae nam mollitia ipsum, labore consequatur consectetur pariatur quam illo reprehenderit.</p>
 </body>
 </html>
