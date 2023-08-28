@@ -1,0 +1,11 @@
+{
+    "editor.suggest.showStatusBar": false,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.minimap.autohide": false,
+    "workbench.editor.preferHistoryBasedLanguageDetection": false,
+    "workbench.editor.showIcons": true,
+    "terminal.integrated.copyOnSelection": false,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.suggest.showIcons": true,
+    "editor.suggest.filterGraceful": true
+}
