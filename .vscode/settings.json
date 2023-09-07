@@ -7,5 +7,9 @@
     "terminal.integrated.copyOnSelection": false,
     "editor.guides.highlightActiveBracketPair": true,
     "editor.suggest.showIcons": true,
-    "editor.suggest.filterGraceful": true
+    "editor.suggest.filterGraceful": true,
+    "editor.useTabStops": true,
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": true,
+    "terminal.integrated.tabs.enableAnimation": true,
+    "workbench.editor.showTabs": true
 }
